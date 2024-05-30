@@ -2,27 +2,27 @@
 
 ## 1.最优化的一般形式
 
-![一般形式](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-28_19-52.png)
+![一般形式](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-28_19-52.png)
 
 ## 2.范数的基本概念
 
 注: 下图为一些常见的范数
 
-![方向导数与梯度](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-28_19-53.png)
+![方向导数与梯度](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-28_19-53.png)
 
 由此引出向量范数:
 
-![向量范数](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-28_19-54.png)
+![向量范数](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-28_19-54.png)
 
 ## 3.方向导数与梯度
 
-![方向导数与梯度](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-28_19-56.png)
+![方向导数与梯度](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-28_19-56.png)
 
-![方向导数与梯度](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-28_19-57.png)
+![方向导数与梯度](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-28_19-57.png)
 
 ### Hessi矩阵:
 
-![海瑟矩阵](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-28_19-58.png)
+![海瑟矩阵](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-28_19-58.png)
 
 ## 4.凸集与凸函数
 
@@ -72,7 +72,7 @@ $ x=\theta_1 x_1 +\theta_2 x_2+...+ \theta_k x_k  $
 
 在几何意义上,仿射包$S$(affine$S$)是包含集合$S$的全平面.
 
-![](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_08-49.png)
+![](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_08-49.png)
 
 ### 锥组合与凸锥
 
@@ -92,7 +92,7 @@ $ x=\theta_1 x_1+...+\theta_k x_k,\theta_i>0(i=1,...,k). $
 
 **半空间的定义** :  任取非零向量$a\in \Bbb{R}^n$,形如$\{x|a^Tx\leqslant b\} $的集合称为半空间.
 
-![2024-05-30_09-05.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_09-05.png)
+![2024-05-30_09-05.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_09-05.png)
 
 ### 多面体
 
@@ -138,7 +138,7 @@ $S^n_+=\{X\in S^n|X\geqslant 0 \}.$
 
 **正定矩阵集合** : 记为$S^n_{++}$
 
-![2024-05-30_09-55.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_09-55.png)
+![2024-05-30_09-55.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_09-55.png)
 
 ## 保凸运算
 
@@ -152,7 +152,7 @@ $S^n_+=\{X\in S^n|X\geqslant 0 \}.$
 
 凸集在$f$下的原像是凸集
 
-![2024-05-30_10-11.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_10-11.png)
+![2024-05-30_10-11.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_10-11.png)
 
 ### 透视变换和分式线性变换的保凸性
 
@@ -176,7 +176,7 @@ $S^n_+=\{X\in S^n|X\geqslant 0 \}.$
 
 * $K$是尖的,即内部不含有直线;若$ x\in K,-x\in K, $则一定有$x=0.$
 
-![2024-05-30_10-35.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_10-35.png)
+![2024-05-30_10-35.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_10-35.png)
 
 ### 广义不等式
 
@@ -191,11 +191,11 @@ $ x\le _Ky \leftrightarrow y-x\in K, $
 
 $ x\le _Ky \leftrightarrow y-x\in intK, $
 
-![2024-05-30_10-46.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_10-46.png)
+![2024-05-30_10-46.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_10-46.png)
 
 **广义不等式的性质**:
 
-![2024-05-30_10-47.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_10-47.png)
+![2024-05-30_10-47.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_10-47.png)
 
 ### 对偶锥
 
@@ -205,9 +205,7 @@ $ x\le _Ky \leftrightarrow y-x\in intK, $
 
 $ K^*=\{y\in \Omega|<x,y>\geqslant0,\forall x\in K .$<x,y>表示x与y的内积
 
-![2024-05-30_10-57.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_10-57.png)
-
-
+![2024-05-30_10-57.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_10-57.png)
 
 ## 分离超平面
 
@@ -222,9 +220,9 @@ $ a^Tx\geqslant b,\forall x\in D, $
 
 即超平面$ \{x|a^Tx=b\} $分离了$C$和$D$.
 
-![2024-05-30_11-07.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_11-07.png)
+![2024-05-30_11-07.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_11-07.png)
 
-![2024-05-30_11-08.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_11-08.png)
+![2024-05-30_11-08.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_11-08.png)
 
 **严格分离超平面定理**要求小于或大于不包含等于的情况.
 
@@ -252,4 +250,4 @@ $ \{x|a^Tx=a^Tx_0\} $
 当成支撑点, 将凸集放在该平面上.
 这也是凸集的特殊性质, 一般的集合甚至无法保证存在平面上的支撑点.
 
-![2024-05-30_11-30.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2024-05-30_11-30.png)
+![2024-05-30_11-30.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/1.Convex/2024-05-30_11-30.png)
