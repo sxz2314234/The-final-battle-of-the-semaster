@@ -47,3 +47,61 @@ $ \forall x\in U(x_0),f(x)>f(x_0)-\xi $
 ### 一元凸函数的例子:
 
 ![2024-05-31_13-05.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-05-31_13-05.png)
+
+### 多元凸函数的例子
+
+![2024-06-01_06-58.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_06-58.png)
+
+### 凸函数判定定理( 判定凸函数的方法 )
+
+**方法一:** 由凸函数的定义导出
+
+**方法二**: 一阶条件( 凸函数的某一点切线的取值总小于该凸函数上的取值 )
+
+![2024-06-01_07-09.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-09.png)**方法三**: 梯度单调性
+
+![2024-06-01_07-12.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-12.png)**方法四**: 上方图
+
+![2024-06-01_07-20.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-20.png)
+
+**方法五**: 二阶条件
+
+![2024-06-01_07-21.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-21.png)
+
+## 保凸运算
+
+验证一个函数是否为凸函数,除了上述通过定理证明之外,还可通过一些简单的凸函数进行保凸运算得到:
+
+* 非负加权和
+
+* 与仿射函数的复合
+
+* 逐点取最大值
+
+* 与标量, 向量函数复合
+
+* 取下确界
+
+* 透视函数
+
+### 非负加权和与仿射函数的复合
+
+![2024-06-01_07-29.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-29.png)
+
+### 逐点取最大值
+
+![2024-06-01_07-38.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-38.png)
+
+### 与标量函数的复合
+
+![2024-06-01_07-58.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_07-58.png)
+
+注: 函数$h$上带一个 ~ 应该是函数$h$的对偶函数  
+
+### 与向量函数的复合
+
+![2024-06-01_08-00.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_08-00.png)
+
+### 透视函数
+
+![2024-06-01_08-03.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/The_theory_of_optimization/2.Convex_function/2024-06-01_08-03.png)
