@@ -71,5 +71,3 @@
 $$
 \omega^*_i=\omega_i-\eta\frac{\partial E}{\partial \omega_i}
 $$
-
-

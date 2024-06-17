@@ -1,4 +1,4 @@
-# 第五章: 迭代算法框架
+# 第五章: 迭代算法框架(一)
 
 ## 无约束优化算法的基本框架
 
@@ -76,4 +76,6 @@
   
   * 其方向是$\nabla x_{nt}=-\nabla^2f(x)^{-1}\nabla f(x) $
 
+### 牛顿法
 
+[[最优化方法笔记] 牛顿法与修正牛顿法 - MarisaMagic - 博客园](https://www.cnblogs.com/MarisaMagic/p/17904136.html)

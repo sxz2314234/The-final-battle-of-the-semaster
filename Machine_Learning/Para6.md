@@ -4,7 +4,7 @@
 
 通过使用带自反馈的神经元, 能够处理任意长度的时序数据.
 
-<img src="https://pic4.zhimg.com/v2-3884f344d71e92d70ec3c44d2795141f_r.jpg" title="" alt="" width="381">\
+<img src="https://pic4.zhimg.com/v2-3884f344d71e92d70ec3c44d2795141f_r.jpg" title="" alt="" width="381">
 
 ![](https://pic1.zhimg.com/v2-206db7ba9d32a80ff56b6cc988a62440_r.jpg)
 
@@ -21,8 +21,6 @@
 * 异步的序列到序列模式
   
   * ![2024-06-07_14-49.png](/home/sxz/The%20Final%20Battle%20of%20the%20Semester/Machine_Learning/2024-06-07_14-49.png)
-  
-  
 
 ## RNN优化: 随时间反向传播算法BPTT
 
